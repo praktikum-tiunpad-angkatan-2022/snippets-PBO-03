@@ -1,7 +1,7 @@
 from Animal import Animal
 from Cat import Cat
 
-def main():
+def main() -> None:
     animal = Animal("animal")
     animal.walk()
     felis = Cat("cat")
